@@ -88,6 +88,12 @@
         .card a:hover {
             text-decoration: underline;
         }
+
+        /* Estilo para as imagens menores */
+        .img-small {
+            max-width: 80%; /* Ajuste o tamanho conforme necessário */
+            height: auto;
+        }
     </style>
 </head>
 
@@ -114,7 +120,7 @@
                     <a href="https://www.sistemafaep.org.br/agrinho/" target="_blank" class="btn btn-outline-success mb-4">Site Oficial do Agrinho</a>
                 </div>
                 <div class="col-md-6">
-                    <img src="assets/imgs/WhatsApp Image 2025-06-06 at 23.05.43.jpeg" alt="Paisagem Rural" class="img-fluid rounded shadow">
+                    <img src="assets/imgs/WhatsApp Image 2025-06-06 at 23.05.43.jpeg" alt="Paisagem Rural" class="img-fluid rounded shadow img-small">
                 </div>
             </div>
             <div class="row mt-4">
@@ -137,7 +143,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col-md-6">
-                    <img src="assets/imgs/WhatsApp Image 2025-06-06 at 23.05.27.jpeg" alt="Família Rural" class="img-fluid rounded shadow">
+                    <img src="assets/imgs/WhatsApp Image 2025-06-06 at 23.05.27.jpeg" alt="Família Rural" class="img-fluid rounded shadow img-small">
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
                     <p class="mb-0">A família é parte essencial no desenvolvimento do meio rural. Com valores sólidos e união, ela representa a base para o crescimento sustentável e fortalecimento da comunidade local.</p>
@@ -151,28 +157,66 @@
             <h2>Energia Rural</h2>
             <p>A energia limpa é essencial para o desenvolvimento das comunidades rurais. A utilização de fontes renováveis, como a energia solar e eólica, pode transformar a vida no campo, proporcionando acesso a eletricidade e reduzindo custos.</p>
 
-            <div class="card-container">
+           <style>
+    .small-heading {
+        font-size: 1.5rem; /* Ajuste o tamanho conforme necessário */
+    }
+</style>
+
+<style>
+    .small-heading {
+        font-size: 1.5rem; /* Ajuste o tamanho conforme necessário */
+        color: #1b7f4b; /* Cor verde que contrasta com o fundo */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra leve para dar profundidade */
+        letter-spacing: 0.5px; /* Espaçamento entre letras */
+    }
+</style>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h1 class="small-heading">ENERGIA SOLAR</h1>
+        <p>Os painéis solares convertem a luz do sol em eletricidade, oferecendo uma solução sustentável e econômica para comunidades rurais.</p>
+    </div>
+    <div class="col-md-6">
+        <h1 class="small-heading">ENERGIA EÓLICA</h1>
+        <p>As turbinas eólicas aproveitam a força do vento para gerar eletricidade, proporcionando uma fonte de energia limpa e renovável.</p>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h1 class="small-heading">ENERGIA DE BIOMASSA</h1>
+        <p>A biomassa utiliza materiais orgânicos para gerar eletricidade e calor, promovendo a sustentabilidade.</p>
+    </div>
+    <div class="col-md-6">
+        <h1 class="small-heading">EDUCAÇÃO SOBRE ENERGIA</h1>
+        <p>Educar as comunidades sobre o uso de energia renovável é fundamental para a sustentabilidade.</p>
+    </div>
+</div>
+
+
+            <div class="card-container mt-4">
                 <div class="card">
-                    <h3>Painéis Solares</h3>
-                    <p>Os painéis solares convertem a luz do sol em eletricidade, oferecendo uma solução sustentável e econômica para comunidades rurais. Eles podem ser instalados em residências e propriedades agrícolas.</p>
+                    <h3>Vantagens da Energia Solar</h3>
+                    <p>A energia solar reduz a dependência de combustíveis fósseis e diminui a emissão de gases poluentes.</p>
                     <a href="https://pt.wikipedia.org/wiki/Energia_solar" target="_blank">Saiba mais</a>
                 </div>
 
                 <div class="card">
-                    <h3>Turbinas Eólicas</h3>
-                    <p>As turbinas eólicas aproveitam a força do vento para gerar eletricidade. Essa tecnologia é especialmente útil em áreas com ventos constantes, proporcionando uma fonte de energia limpa e renovável.</p>
+                    <h3>Impacto das Turbinas Eólicas</h3>
+                    <p>As turbinas eólicas podem gerar eletricidade em áreas remotas, melhorando a qualidade de vida das comunidades.</p>
                     <a href="https://pt.wikipedia.org/wiki/Energia_e%C3%B3lica" target="_blank">Saiba mais</a>
                 </div>
 
                 <div class="card">
-                    <h3>Biomassa</h3>
-                    <p>A biomassa é uma fonte de energia renovável que utiliza materiais orgânicos, como resíduos agrícolas e florestais, para gerar eletricidade e calor. Essa prática ajuda a reduzir o desperdício e promove a sustentabilidade.</p>
+                    <h3>Biomassa e Sustentabilidade</h3>
+                    <p>A biomassa não só gera energia, mas também ajuda a reduzir resíduos e promover a economia circular.</p>
                     <a href="https://pt.wikipedia.org/wiki/Biomassa" target="_blank">Saiba mais</a>
                 </div>
 
                 <div class="card">
-                    <h3>Educação e Conscientização</h3>
-                    <p>Educar as comunidades sobre o uso de energia renovável é fundamental. Programas de conscientização podem ajudar a disseminar informações sobre as vantagens e a implementação dessas tecnologias.</p>
+                    <h3>Programas de Conscientização</h3>
+                    <p>Iniciativas de conscientização sobre energia renovável são essenciais para a adoção de práticas sustentáveis.</p>
                     <a href="https://www.abc.org.br/educacao-para-energia-sustentavel" target="_blank">Saiba mais</a>
                 </div>
             </div>
@@ -184,28 +228,60 @@
             <h2>Acessibilidade à Água</h2>
             <p>A água potável é essencial para a saúde e o bem-estar das comunidades. Sem acesso a água limpa, as famílias enfrentam riscos de doenças e dificuldades no dia a dia.</p>
 
-            <div class="card-container">
+           <style>
+    .small-heading {
+        font-size: 1.5rem; /* Ajuste o tamanho conforme necessário */
+        color: #1b7f4b; /* Cor verde que contrasta com o fundo */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra leve para dar profundidade */
+        letter-spacing: 0.5px; /* Espaçamento entre letras */
+    }
+</style>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h1 class="small-heading">CAPTAÇÃO DE ÁGUA</h1>
+        <p>Projetos de captação de água da chuva ajudam a armazenar água para uso em períodos de seca.</p>
+    </div>
+    <div class="col-md-6">
+        <h1 class="small-heading">TRATAMENTO DE ÁGUA</h1>
+        <p>O tratamento de água é fundamental para garantir que a água consumida seja segura.</p>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h1 class="small-heading">USO CONSCIENTE DA ÁGUA</h1>
+        <p>Educar as comunidades sobre o uso consciente da água é crucial para reduzir o desperdício.</p>
+    </div>
+    <div class="col-md-6">
+        <h1 class="small-heading">SANEAMENTO BÁSICO</h1>
+        <p>Investir em saneamento básico é essencial para garantir o acesso à água potável.</p>
+    </div>
+</div>
+
+
+            <div class="card-container mt-4">
                 <div class="card">
-                    <h3>Captação de Água da Chuva</h3>
-                    <p>Projetos de captação de água da chuva ajudam a armazenar água para uso em períodos de seca. Essa técnica é simples e pode ser implementada em residências e comunidades.</p>
+                    <h3>Importância da Captação de Água</h3>
+                    <p>A captação de água da chuva é uma solução simples e eficaz para enfrentar períodos de seca.</p>
                     <a href="https://pt.wikipedia.org/wiki/Capta%C3%A7%C3%A3o_de_%C3%A1gua_da_chuva" target="_blank">Saiba mais</a>
                 </div>
 
                 <div class="card">
-                    <h3>Tratamento de Água</h3>
-                    <p>O tratamento de água é fundamental para garantir que a água consumida seja segura. Existem diversas tecnologias que podem ser aplicadas, desde métodos simples até sistemas complexos.</p>
+                    <h3>Tecnologias de Tratamento</h3>
+                    <p>Existem diversas tecnologias de tratamento de água que podem ser aplicadas em comunidades rurais.</p>
                     <a href="https://pt.wikipedia.org/wiki/Tratamento_de_%C3%A1gua" target="_blank">Saiba mais</a>
                 </div>
 
                 <div class="card">
-                    <h3>Educação sobre Uso da Água</h3>
-                    <p>Educar as comunidades sobre o uso consciente da água é crucial. Campanhas de conscientização podem ajudar a reduzir o desperdício e promover práticas sustentáveis.</p>
+                    <h3>Conscientização sobre Água</h3>
+                    <p>Campanhas de conscientização são fundamentais para promover o uso sustentável da água.</p>
                     <a href="https://www.unicef.org/brazil/historias/educacao-para-o-uso-sustentavel-da-agua" target="_blank">Saiba mais</a>
                 </div>
 
                 <div class="card">
-                    <h3>Projetos de Saneamento Básico</h3>
-                    <p>Investir em saneamento básico é essencial para garantir o acesso à água potável e melhorar a qualidade de vida das comunidades. Projetos de infraestrutura podem transformar realidades.</p>
+                    <h3>Desafios do Saneamento</h3>
+                    <p>O acesso ao saneamento básico é um desafio que deve ser enfrentado para garantir saúde e qualidade de vida.</p>
                     <a href="https://pt.wikipedia.org/wiki/Saneamento_b%C3%A1sico" target="_blank">Saiba mais</a>
                 </div>
             </div>
@@ -217,28 +293,59 @@
             <h2>Produção</h2>
             <p>Práticas agrícolas sustentáveis aumentam a produtividade e protegem o meio ambiente. Técnicas como rotação de culturas e compostagem são fundamentais.</p>
 
-            <div class="card-container">
+          <style>
+    .small-heading {
+        font-size: 1.5rem; /* Ajuste o tamanho conforme necessário */
+        color: #1b7f4b; /* Cor verde que contrasta com o fundo */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra leve para dar profundidade */
+        letter-spacing: 0.5px; /* Espaçamento entre letras */
+    }
+</style>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h1 class="small-heading">ROTAÇÃO DE CULTURAS</h1>
+        <p>A rotação de culturas melhora a saúde do solo e reduz pragas e doenças.</p>
+    </div>
+    <div class="col-md-6">
+        <h1 class="small-heading">COMPOSTAGEM</h1>
+        <p>A compostagem transforma resíduos orgânicos em adubo, melhorando a fertilidade do solo.</p>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h1 class="small-heading">AGROECOLOGIA</h1>
+        <p>A agroecologia integra práticas agrícolas com a conservação ambiental.</p>
+    </div>
+    <div class="col-md-6">
+        <h1 class="small-heading">USO DE TECNOLÓGIAS</h1>
+        <p>A adoção de tecnologias inovadoras aumenta a eficiência na produção agrícola.</p>
+    </div>
+</div>
+
+            <div class="card-container mt-4">
                 <div class="card">
-                    <h3>Rotação de Culturas</h3>
-                    <p>A rotação de culturas é uma prática que envolve alternar diferentes tipos de culturas em uma mesma área ao longo do tempo. Isso ajuda a melhorar a saúde do solo e a reduzir pragas e doenças.</p>
+                    <h3>Benefícios da Rotação de Culturas</h3>
+                    <p>A rotação de culturas ajuda a manter a fertilidade do solo e a controlar pragas naturalmente.</p>
                     <a href="https://pt.wikipedia.org/wiki/Rotacao_de_culturas" target="_blank">Saiba mais</a>
                 </div>
 
                 <div class="card">
-                    <h3>Compostagem</h3>
-                    <p>A compostagem é uma técnica que transforma resíduos orgânicos em adubo, melhorando a fertilidade do solo e reduzindo a quantidade de lixo. É uma prática sustentável que beneficia o meio ambiente.</p>
+                    <h3>Vantagens da Compostagem</h3>
+                    <p>A compostagem reduz a quantidade de resíduos e melhora a qualidade do solo.</p>
                     <a href="https://pt.wikipedia.org/wiki/Compostagem" target="_blank">Saiba mais</a>
                 </div>
 
                 <div class="card">
-                    <h3>Agroecologia</h3>
-                    <p>A agroecologia é um sistema de produção que integra práticas agrícolas com a conservação ambiental. Ela promove a biodiversidade e a sustentabilidade, respeitando os ciclos naturais.</p>
+                    <h3>Agroecologia e Sustentabilidade</h3>
+                    <p>A agroecologia promove a biodiversidade e respeita os ciclos naturais, garantindo um ambiente saudável.</p>
                     <a href="https://pt.wikipedia.org/wiki/Agroecologia" target="_blank">Saiba mais</a>
                 </div>
 
                 <div class="card">
-                    <h3>Inovação Tecnológica</h3>
-                    <p>A adoção de tecnologias inovadoras, como a agricultura de precisão, pode aumentar a eficiência na produção agrícola, reduzindo custos e impactos ambientais.</p>
+                    <h3>Inovações na Agricultura</h3>
+                    <p>A tecnologia na agricultura, como a agricultura de precisão, pode aumentar a produtividade e reduzir custos.</p>
                     <a href="https://pt.wikipedia.org/wiki/Agricultura_de_precisao" target="_blank">Saiba mais</a>
                 </div>
             </div>
